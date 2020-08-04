@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Diabities Prediction
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel = "stylesheet" href = "app.css">
+    
+    </head>
+    <body>
+        <div class = "img"></div>
+        <form class = "form">
+            <h2>Pregnancies	</h2>
+            <input class="area"  type="email" id="uipreg" class="floatLabel" name="preg" value="">
+
+            <h2>Glucose</h2>
+            <input class="area"  type="email" id="uiglucose" class="floatLabel" name="glucose" value="">
+
+            <h2>BloodPressure</h2>
+            <input class="area"  type="email" id="uibp" class="floatLabel" name="bp" value="">
+
+            <h2>SkinThickness</h2>
+            <input class="area"  type="email" id="uiskin" class="floatLabel" name="skin" value="">
+
+            <h2>Insulin</h2>
+            <input class="area"  type="email" id="uiinsulin" class="floatLabel" name="insulin" value="">
+
+            <h2>BMI</h2>
+            <input class="area"  type="email" id="uibmi" class="floatLabel" name="bmi" value="">
+
+            <h2>DiabetesPedigreeFunction</h2>
+            <input class="area"  type="email" id="uidia" class="floatLabel" name="DiabetesPedigreeFunction" value="">
+
+            <h2>Age</h2>
+            <input class="area"  type="email" id="uiage" class="floatLabel" name="age" value="">
+
+        </form>
+        <button class="submit" onclick="onClickedEstimation()" type="button">Predict Diabities</button>
+	<div id="uiEstimation" class="result">	<h2></h2> </div>
+    </body>
+    <script src="app.js"></script>
+
+</html>
